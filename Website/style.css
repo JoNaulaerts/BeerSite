@@ -1,3 +1,29 @@
-h1 {
-font-style: italic;
+/* kleurenpalet:
+
+#175547   : groen
+#9A7548   : bruin
+#1A1A1A   : zwart 
+#FDFFF7   : wit
+
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body_errorpages {
+    background-image: url("images/errorpages/errorpages_background.jpg");
+    background-color: #175547;
+    background-size:cover;
+
+    color:black
+
+}
+
+.errorpage_image {
+    mask-image: radial-gradient(circle, black 20%, transparent 60%);
+
 }
