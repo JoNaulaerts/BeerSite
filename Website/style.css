@@ -1,3 +1,18 @@
-h1 {
-font-style: italic;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body_errorpages {
+    background-image: url("images/errorpages/errorpages_background.jpg");
+    background-color: #175547;
+    background-size:cover;
+
+    color:black
+
+}
+
+.errorpage_image {
+    mask-image: radial-gradient(circle, black 20%, transparent 60%);
+
 }
