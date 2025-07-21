@@ -7,12 +7,45 @@
 
 */
 
+@font-face {
+    font-family: "Shrikhand";
+    src: url(/stylesheets/Shrikhand-Regular.ttf);
+}
 
-
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+h1 {
+    font-family: "Shrikhand";
+    font-size: 70px;
+}
+
+
+.bgc_green {
+    background-color: #175547;
+    color: #FDFFF7;
+}
+
+.bgc_brown {
+    background-color: #9A7548;
+    color: #FDFFF7;
+}
+
+.home_first_view
+{
+  min-height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+
+
 
 .body_errorpages {
     background-image: url("images/errorpages/errorpages_background.jpg");
@@ -27,3 +60,4 @@
     mask-image: radial-gradient(circle, black 20%, transparent 60%);
 
 }
+
