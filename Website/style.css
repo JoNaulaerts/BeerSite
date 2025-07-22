@@ -4,15 +4,85 @@
 #9A7548   : bruin
 #1A1A1A   : zwart 
 #FDFFF7   : wit
-
+3F9561
+#716565
 */
 
+@font-face {
+    font-family: "Shrikhand";
+    src: url(/stylesheets/Shrikhand-Regular.ttf);
+}
 
+@font-face {
+    font-family: "Lexend";
+    src: url(/stylesheets/Lexend-VariableFont_wght.ttf);
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend";
 }
+
+.h1_light_shadow_black {
+    font-family: "Shrikhand";
+    font-size: 70px;
+    color: #FDFFF7;
+    text-shadow:7px 7px #1A1A1A;
+}
+
+.h1_light_shadow_green {
+    font-family: "Shrikhand";
+    font-size: 70px;
+    color: #FDFFF7;
+    text-shadow:7px 7px #175547;
+}
+
+
+/* Shadows */
+
+.shadow_black {
+    text-shadow:7px 7px #1A1A1A;
+}
+
+.shadow_green {
+    text-shadow:7px 7px #175547;
+}
+
+.shadow_White {
+    text-shadow:7px 7px #FDFFF7;
+}
+
+
+.c_black {
+    color: #1A1A1A;
+}
+
+.bgc_green {
+    background-color: #175547;
+    color: #FDFFF7;
+}
+
+.bgc_brown {
+    background-color: #1A1A1A;
+    color: #FDFFF7;
+}
+
+.home_first_view
+{
+  min-height: 100vh;
+  width: 100vw;
+}
+
+
+
+.nav-link {
+    color: #1A1A1A;
+}
+
+
+
 
 .body_errorpages {
     background-image: url("images/errorpages/errorpages_background.jpg");
@@ -25,5 +95,13 @@
 
 .errorpage_image {
     mask-image: radial-gradient(circle, black 20%, transparent 60%);
+
+}
+
+
+footer {
+    color: #FDFFF7;
+    background-color: #1A1A1A;
+    align-content: center;
 
 }
