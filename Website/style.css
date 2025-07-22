@@ -4,7 +4,8 @@
 #9A7548   : bruin
 #1A1A1A   : zwart 
 #FDFFF7   : wit
-
+3F9561
+#716565
 */
 
 @font-face {
@@ -12,17 +13,51 @@
     src: url(/stylesheets/Shrikhand-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Lexend";
+    src: url(/stylesheets/Lexend-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lexend";
 }
 
-h1 {
+.h1_light_shadow_black {
     font-family: "Shrikhand";
     font-size: 70px;
+    color: #FDFFF7;
+    text-shadow:7px 7px #1A1A1A;
 }
 
+.h1_light_shadow_green {
+    font-family: "Shrikhand";
+    font-size: 70px;
+    color: #FDFFF7;
+    text-shadow:7px 7px #175547;
+}
+
+
+/* Shadows */
+
+.shadow_black {
+    text-shadow:7px 7px #1A1A1A;
+}
+
+.shadow_green {
+    text-shadow:7px 7px #175547;
+}
+
+.shadow_White {
+    text-shadow:7px 7px #FDFFF7;
+}
+
+
+.c_black {
+    color: #1A1A1A;
+}
 
 .bgc_green {
     background-color: #175547;
@@ -30,7 +65,7 @@ h1 {
 }
 
 .bgc_brown {
-    background-color: #9A7548;
+    background-color: #1A1A1A;
     color: #FDFFF7;
 }
 
@@ -42,7 +77,9 @@ h1 {
 
 
 
-
+.nav-link {
+    color: #1A1A1A;
+}
 
 
 
@@ -61,3 +98,10 @@ h1 {
 
 }
 
+
+footer {
+    color: #FDFFF7;
+    background-color: #1A1A1A;
+    align-content: center;
+
+}
